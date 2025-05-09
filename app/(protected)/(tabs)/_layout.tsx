@@ -14,15 +14,11 @@ export default function TabsLayout() {
           tabBarActiveTintColor:
             scheme.colorScheme === "dark" ? "white" : "black",
 
-          
-        
           tabBarStyle: {
             backgroundColor: scheme.colorScheme === "dark" ? "#000" : "white",
-            height:90,
-            paddingTop:10
+            height: 90,
+            paddingTop: 10,
           },
-          
-   
         }}
       >
         <Tabs.Screen
